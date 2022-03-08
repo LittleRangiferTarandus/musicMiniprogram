@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/video/video",
+    "pages/profile/profile",
+    "pages/login/login",
+    "pages/playlist/playlist",
+    "pages/songDetail/songDetail",
+    "pages/recommendSong/recommendSong",
+    "pages/search/search"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "菜菜云音乐",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "主页",
+      "iconPath": "static/images/tabs/tab-home.png",
+      "selectedIconPath": "static/images/tabs/tab-home-current.png"
+    },{
+      "pagePath": "pages/video/video",
+      "text": "视频",
+      "iconPath": "static/images/tabs/tab-video.png",
+      "selectedIconPath": "static/images/tabs/tab-video-current.png"
+    },{
+      "pagePath": "pages/profile/profile",
+      "text": "我的",
+      "iconPath": "static/images/tabs/tab-personal.png",
+      "selectedIconPath": "static/images/tabs/tab-personal-current.png"
+    }],
+    "color": "#333",
+    "selectedColor": "d43c33",
+    "backgroundColor": "#ffffff"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "requiredBackgroundModes":[]
+}
