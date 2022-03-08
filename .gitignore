@@ -1,6 +1,6 @@
 # 避免提交的文件夹
-miniprogram_npm
-node_modules
+miniprogram/miniprogram_npm
+miniprogram/node_modules
 .vscode
 
 # 避免提交的文件
